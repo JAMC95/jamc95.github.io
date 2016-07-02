@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Mi porfolio online</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+
+
+
+  </head>
+
+  <body>
+
+    <!-- The scrollable area -->
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <!-- Navigation Part -->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Jose Antonio Moral Castilla</a>
+      </div>
+      <div class="collapse navbar-collapse myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active">
+            <a href="#home">
+              <span class="glyphicon glyphicon-home"></span> Home</a>
+          </li>
+          <li>
+            <a href="#experience">
+              <span class="glyphicon glyphicon-info-sign"></span> Estudios</a>
+          </li>
+          <li>
+            <a href="#portfolio">
+              <span class="glyphicon glyphicon-briefcase"></span> Portfolio</a>
+          </li>
+          <li>
+            <a href="#contact">
+              <span class="glyphicon glyphicon-comment"></span> Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home -->
+  <section class="home" id="home">
+    <h1>Jose Antonio Moral Castilla</h1>
+    <h2>Desarrollador de Aplicaciones y Soluciones Web</h2>
+    <img class="img-responsive img-circle displayed me" src="img/perfil.png">
+    <div class="img-text">
+      <p>Mi nombre es José Antonio Moral Castilla, estoy empezando en el mundo de la programación. Actualmente cursando un CFGS y deseando aprender día a día más los lenguajes de programación a mi alcance.</p>
+    </div>
+  </section>
+
+  <!-- Experience aqui en vez de experiencia, pondré formación -->
+  <section class="experience" id="experience">
+    <div class="container">
+      <h1>Mis estudios</h1>
+      <p>Aquí expondré información detallada sobre mis estudios.</p>
+      <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse1"> CFGS en Desarrollo de Aplicaciones Webs</a>
+            </h4>
+          </div>
+          <div id="collapse1" class="panel-collapse collapse in">
+            <div class="panel-body">Septiembre 2015 – Presente
+              <p>En este Ciclo Formativo estoy aprendiendo:</p>
+              <ul>
+                <li>Principios de programación, con C y Java.</li>
+                <li>Lenguajes de Marcas y de gestión, y sus usos</li>
+                <li>Lenguajes de programación orientados a la programación web (tanto back-end como fornt-end), como son PHP, JavaScript incluyendo algunos de sus frameworks como Synphony de PHP o JQuery de Javascript.</li>
+              </ul>
+              <p>Otros lenguajes/entornos:</p>
+              <ul>
+                <li>Como es ASP.NET a través de Visual Basic</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Cursos de interés</a>
+            </h4>
+          </div>
+          <div id="collapse2" class="panel-collapse collapse">
+            <div class="panel-body">
+              <br>Además de los ya expuestos lenguajes, para reforzar lo aprendido y expandir mis conocimientos en programación he ido adquiriendo y realizando diversos cursos online, de los  cuales expondré algunos proyectos realizados gracias a los conocimientos adquiridos</br>
+              <ul>
+                <li><a href="https://www.udemy.com/androidcourse/learn/v4/overview">The Complete Android Developer Course: Beginner To Advanced</a></li>
+                <li><a href="https://openwebinars.net/cursos/curso-php-basico">Curso PHP desde cero</a></li>
+                <li><a href="https://openwebinars.net/cursos/curso-html5-css3-javascript/">HTML5, CSS3, Y JAVASCRIPT</a></li>
+                <li><a href="https://www.udemy.com/javascriptcourse/learn/v4/overview">The Complete JavaScript Course For Web Development Beginners</a></li>
+                <li><a href="https://www.udemy.com/jquery-tutorial/learn/v4/overview">The Complete jQuery Course: From Beginner To Advanced</a></li>
+        
+              </ul>
+            </div>
+          </div>
+        </div>
+    
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section class="portfolio" id="portfolio">
+    <h1>Portfolio</h1>
+    <p>Aquí están mis proyectos realizados a lo largo de mi formación como programador!</p>
+    <p>Desde lo mas reciente hasta mis primeros pasos</p>
+    <div class="container">
+
+      <!-- Example row of columns -->
+   <div class="row">
+        <div class="col-md-6">
+          <div class="well">
+            <a href="https://github.com/JAMC95/Prueba-Web-en-PHP/" class="thumbnail" target="_blank">
+              <img src="img/tienda.png" alt="Primeros pasos en PHP" class="project-img"></a>
+            <h2 class="gray-text">Primeros pasos en PHP</h2>
+            <div>
+              <p class="gray-text">Este proyecto coge los productos de una base de datos y los dibuja en la página web en HTMLgracias a PHP</p>
+              <p class="gray-text">
+                <strong>Lenguajes y tecnologías usadas:</strong> HTML, CSS, Boostrap3, PHP, MySQL</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="well">
+            <a href="https://github.com/JAMC95/CronometroAndroid" class="thumbnail" target="_blank">
+              <img src="img/crono.png" alt="Cronometro en Android" class="project-img-android"></a>
+            <h2 class="gray-text" >Cronometro en Android</h2>
+            <div>
+              <p class="gray-text">Cronómetro simple, realizado en Android Studio para practicar el uso de hilos.</p>
+              <p class="gray-text">
+                <strong>Tecnologías usadas:</strong> Android Studio y Java</p>
+            </div>
+          </div>
+        </div>
+    </div>
+      
+       <div class="row">
+        <div class="col-md-6">
+          <div class="well">
+            <a href="https://github.com/JAMC95/SimonDiceProyecto/" class="thumbnail" target="_blank">
+              <img src="img/simon.png" alt="Simon Dice" class="project-img"></a>
+            <h2 class="gray-text">SimonDice</h2>
+            <div>
+              <p class="gray-text">Realizado en Java usando Swing para gráficos, se usan dos hilos y eventos de botón. El ranking es guardado en un fichero de texto (sin formato) El ranking está limitado a 10 registros, si se intenta ingresar un registro cuando ya hay 10 y no supera la puntuación de ninguno de esos 10, lo desecha, si no, lo escribe</p>
+              <p class="gray-text">
+                <strong>Tecnologías usadas:</strong>Java y librería Swing de Java (entre otras)</p>
+            </div>
+          </div>
+        </div>
+      
+ 
+
+     
+      <!--  <div class="col-md-6">
+          <div class="well">
+            <a href="https://github.com/JAMC95/SimonDiceProyecto/" class="thumbnail" target="_blank">
+              <img src="img/simon.png" alt="Simon Dice" class="project-img"></a>
+            <h2 class="gray-text">SimonDice</h2>
+            <div>
+              <p class="gray-text">Realizado en Java usando Swing para gráficos, se usan dos hilos y eventos de botón. El ranking es guardado en un fichero de texto (sin formato) El ranking está limitado a 10 registros, si se intenta ingresar un registro cuando ya hay 10 y no supera la puntuación de ninguno de esos 10, lo desecha, si no, lo escribe</p>
+              <p class="gray-text">
+                <strong>Tecnologías usadas:</strong>Java y librería Swing de Java (entre otras)</p>
+            </div>
+          </div>
+        </div>-->
+      
+        </div>
+     <!--
+     
+     <div class="row">
+      <div class="col-md-6">
+          <div class="well">
+            <a href="https://github.com/JAMC95/SimonDiceProyecto/" class="thumbnail" target="_blank">
+              <img src="img/simon.png" alt="Simon Dice" class="project-img"></a>
+            <h2 class="gray-text">SimonDice</h2>
+            <div>
+              <p class="gray-text">Realizado en Java usando Swing para gráficos, se usan dos hilos y eventos de botón. El ranking es guardado en un fichero de texto (sin formato) El ranking está limitado a 10 registros, si se intenta ingresar un registro cuando ya hay 10 y no supera la puntuación de ninguno de esos 10, lo desecha, si no, lo escribe</p>
+              <p class="gray-text">
+                <strong>Tecnologías usadas:</strong>Java y librería Swing de Java (entre otras)</p>
+            </div>
+          </div>
+        </div>
+        
+        
+        
+</div>
+     
+      
+      
+-->
+
+     
+       
+    
+      </div>
+
+      
+
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <div class="contact-info container">
+      <h1>Pongase en contacto conmigo o eche un vistazo a mi trabajo realizado en distintas plataformas</h1>
+
+      
+  </section>
+
+  <!-- The footer -->
+  <footer>
+    
+    <p>
+      <a href="mailto:joxe.bailen@gmail.com">
+        <i class="fa fa-envelope fa-fw"></i>
+      </a>
+      <a href="https://github.com/JAMC" target="_blank">
+        <i class="fa fa-github fa-fw"></i>
+      </a>
+      <a href="https://twitter.com/JoxeDisconect" target="_blank">
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+      </a>
+      <a href="https://codepen.io/JXMay/" target="_blank">
+        <i class="fa fa-codepen"></i>
+      </a>
+      
+     </p>
+  </footer>
+</body>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+
+
+
+  </body>
+</html>
