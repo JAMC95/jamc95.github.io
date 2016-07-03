@@ -3,15 +3,28 @@ body {
 }
 
 footer {
-  background-color: black;
+  background-color: coral;
   color: gray;
-  line-height: 20px;
-  padding-top: 10px;
-  padding-bottom: 5px;
-  width: 100%;
-  bottom: 0;
-  position: relative;
-  text-align: center;
+  min-height: 100vh;
+  padding-top: 10%;
+  padding-bottom: 3%;
+}
+.sobremi{
+    background-color: aliceblue;
+     margin:0px 1000px 200px 0px;
+    height: 100%;
+  
+}
+.contacto{
+    
+   margin: -379px 0px 0px 902px; 
+  
+   background-color:cornsilk;
+   height: 100%;
+    
+}
+.rrss{
+    margin-top: 73px;
 }
 
 section h1,
