@@ -11,20 +11,34 @@ footer {
 }
 .sobremi{
     background-color: aliceblue;
-     margin:0px 1000px 200px 0px;
+    
+    min-height: 150px;
+    max-width: 1000px;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    margin-left: 0%;
+    margin:0 auto;
     height: 100%;
-  
+    
 }
 .contacto{
-    
-   margin: -379px 0px 0px 902px; 
-  
+   
+   min-height: 150px;
+   max-width: 1000px;
+  padding-top: 0%;
+    margin:0 auto;
+  padding-bottom: 0%;
+
    background-color:cornsilk;
    height: 100%;
     
 }
 .rrss{
     margin-top: 73px;
+}
+.gobal{
+  width: 100%;
+    
 }
 
 section h1,
