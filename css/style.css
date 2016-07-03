@@ -19,16 +19,19 @@ footer {
     margin-left: 0%;
     margin:0 auto;
     height: 100%;
+    -webkit-border-radius: 5px 5px;  /* Safari  */
+    -moz-border-radius: 5px 10px;     /* Firefox */
     
 }
 .contacto{
    
    min-height: 150px;
    max-width: 1000px;
-  padding-top: 0%;
-    margin:0 auto;
-  padding-bottom: 0%;
-
+   padding-top: 0%;
+   margin:0 auto;
+   padding-bottom: 0%;
+   -webkit-border-radius: 5px 5px;  /* Safari  */
+   -moz-border-radius: 5px 10px;     /* Firefox */
    background-color:cornsilk;
    height: 100%;
     
