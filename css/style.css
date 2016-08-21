@@ -53,17 +53,22 @@ p {
 
 .panel-body,
 p {
-  font-size: 150%;
+  font-size: 100%;
 }
 
 
 
 .gray-text {
   color: gray;
+  text-align: left;
 }
+
+
 
 .project-text {
   color: gray;
+  
+  
 }
 
 img {
@@ -165,5 +170,5 @@ img {
 }
 
 .well {
-  min-height: 800px;
+  max-height: 625px;
 }
