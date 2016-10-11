@@ -15,8 +15,7 @@ footer {
     max-width: 1000px;
     padding-top: 0%;
     padding-bottom: 0%;
-    margin-left: 5em;
-    margin-top: 25em;
+    margin: 20em auto;
     height: 100%;
     -webkit-border-radius: 5px 5px;  /* Safari  */
     -moz-border-radius: 5px 10px;     /* Firefox */
@@ -27,7 +26,7 @@ footer {
    min-height: 150px;
    max-width: 1000px;
    padding-top: 0%;
-   margin-top: 5em;
+   margin: -15em auto;
    padding-bottom: 0%;
    -webkit-border-radius: 5px 5px;  /* Safari  */
    -moz-border-radius: 5px 10px;     /* Firefox */
